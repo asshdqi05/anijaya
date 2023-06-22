@@ -1,0 +1,23 @@
+CRITICAL - 2022-02-26 01:27:16 --> Undefined property: stdClass::$bukti_pembayaran
+#0 C:\laragon\www\anijaya\app\Views\konfirmasi_pemesanan\V_konfirmasi.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 99, Array)
+#1 C:\laragon\www\anijaya\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('konfirmasi_peme...', Array, true)
+#4 C:\laragon\www\anijaya\app\Controllers\C_konfirmasi_pemesanan.php(28): view('konfirmasi_peme...', Array)
+#5 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_konfirmasi_pemesanan->detail('FP-2402220003')
+#6 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_konfirmasi_pemesanan))
+#7 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-26 01:27:43 --> Undefined variable: judul_halaman
+#0 C:\laragon\www\anijaya\app\Views\template\V_header.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 57, Array)
+#1 C:\laragon\www\anijaya\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\anijaya\system\View\View.php(226): CodeIgniter\View\View->render('template/V_head...', Array, true)
+#4 C:\laragon\www\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('konfirmasi_peme...', Array, true)
+#5 C:\laragon\www\anijaya\app\Controllers\C_konfirmasi_pemesanan.php(28): view('konfirmasi_peme...', Array)
+#6 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_konfirmasi_pemesanan->detail('FP-2402220003')
+#7 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_konfirmasi_pemesanan))
+#8 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

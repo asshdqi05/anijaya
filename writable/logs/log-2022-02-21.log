@@ -1,0 +1,33 @@
+CRITICAL - 2022-02-21 23:21:35 --> Trying to get property 'tanggal' of non-object
+#0 C:\laragon\www\anijaya\app\Views\pemesanan\V_nota_pesan.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 37, Array)
+#1 C:\laragon\www\anijaya\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('pemesanan/V_not...', Array, true)
+#4 C:\laragon\www\anijaya\app\Controllers\C_pemesanan.php(104): view('pemesanan/V_not...', Array)
+#5 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_pemesanan->cetak_nota('FP-2202220001')
+#6 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_pemesanan))
+#7 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-21 23:25:37 --> Trying to get property 'tanggal' of non-object
+#0 C:\laragon\www\anijaya\app\Views\pemesanan\V_nota_pesan.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 37, Array)
+#1 C:\laragon\www\anijaya\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('pemesanan/V_not...', Array, true)
+#4 C:\laragon\www\anijaya\app\Controllers\C_pemesanan.php(104): view('pemesanan/V_not...', Array)
+#5 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_pemesanan->cetak_nota('FP-2202220001')
+#6 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_pemesanan))
+#7 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-21 23:31:23 --> Undefined property: stdClass::$harga_barang
+#0 C:\laragon\www\anijaya\app\Views\pemesanan\V_nota_pesan.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 72, Array)
+#1 C:\laragon\www\anijaya\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('pemesanan/V_not...', Array, true)
+#4 C:\laragon\www\anijaya\app\Controllers\C_pemesanan.php(104): view('pemesanan/V_not...', Array)
+#5 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_pemesanan->cetak_nota('FP-2202220001')
+#6 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_pemesanan))
+#7 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

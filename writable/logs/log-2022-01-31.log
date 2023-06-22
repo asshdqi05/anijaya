@@ -1,0 +1,146 @@
+CRITICAL - 2022-01-31 05:27:32 --> Invalid file: template/V_header.php
+#0 C:\xampp\htdocs\anijaya\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/V_head...')
+#1 C:\xampp\htdocs\anijaya\system\View\View.php(226): CodeIgniter\View\View->render('template/V_head...', Array, true)
+#2 C:\xampp\htdocs\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('test', Array, true)
+#3 C:\xampp\htdocs\anijaya\app\Controllers\C_home.php(9): view('test')
+#4 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_home->index()
+#5 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_home))
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 05:30:04 --> Invalid file: template/V_header.php
+#0 C:\xampp\htdocs\anijaya\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/V_head...')
+#1 C:\xampp\htdocs\anijaya\system\View\View.php(226): CodeIgniter\View\View->render('template/V_head...', Array, true)
+#2 C:\xampp\htdocs\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('test', Array, true)
+#3 C:\xampp\htdocs\anijaya\app\Controllers\C_home.php(10): view('test', Array)
+#4 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_home->index()
+#5 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_home))
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-31 05:30:07 --> Invalid file: template/V_header.php
+#0 C:\xampp\htdocs\anijaya\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/V_head...')
+#1 C:\xampp\htdocs\anijaya\system\View\View.php(226): CodeIgniter\View\View->render('template/V_head...', Array, true)
+#2 C:\xampp\htdocs\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('test', Array, true)
+#3 C:\xampp\htdocs\anijaya\app\Controllers\C_home.php(10): view('test', Array)
+#4 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_home->index()
+#5 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_home))
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-31 23:23:17 --> Table 'anijaya.leveluser' doesn't exist
+CRITICAL - 2022-01-31 23:23:17 --> Table 'anijaya.leveluser' doesn't exist
+#0 C:\xampp\htdocs\anijaya\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\anijaya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\anijaya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\anijaya\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\anijaya\app\Models\M_user.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\anijaya\app\Controllers\C_user.php(14): App\Models\M_user->getAll()
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_user->index()
+#7 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_user))
+#8 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-31 23:24:50 --> Table 'anijaya.leveluser' doesn't exist
+CRITICAL - 2022-01-31 23:24:50 --> Table 'anijaya.leveluser' doesn't exist
+#0 C:\xampp\htdocs\anijaya\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\anijaya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\anijaya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\anijaya\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\anijaya\app\Models\M_user.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\anijaya\app\Controllers\C_user.php(14): App\Models\M_user->getAll()
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_user->index()
+#7 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_user))
+#8 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-31 23:24:51 --> Table 'anijaya.leveluser' doesn't exist
+CRITICAL - 2022-01-31 23:24:51 --> Table 'anijaya.leveluser' doesn't exist
+#0 C:\xampp\htdocs\anijaya\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\anijaya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\anijaya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\anijaya\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\anijaya\app\Models\M_user.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\anijaya\app\Controllers\C_user.php(14): App\Models\M_user->getAll()
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_user->index()
+#7 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_user))
+#8 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-31 23:28:25 --> Undefined property: stdClass::$nama_level
+#0 C:\xampp\htdocs\anijaya\app\Views\master\V_user.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\anijaya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('master/V_user', Array, true)
+#4 C:\xampp\htdocs\anijaya\app\Controllers\C_user.php(16): view('master/V_user', Array)
+#5 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_user->index()
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_user))
+#7 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 23:28:27 --> Undefined property: stdClass::$nama_level
+#0 C:\xampp\htdocs\anijaya\app\Views\master\V_user.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\anijaya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('master/V_user', Array, true)
+#4 C:\xampp\htdocs\anijaya\app\Controllers\C_user.php(16): view('master/V_user', Array)
+#5 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_user->index()
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_user))
+#7 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 23:32:00 --> Undefined property: stdClass::$namauser
+#0 C:\xampp\htdocs\anijaya\app\Views\master\V_user.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\anijaya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('master/V_user', Array, true)
+#4 C:\xampp\htdocs\anijaya\app\Controllers\C_user.php(16): view('master/V_user', Array)
+#5 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_user->index()
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_user))
+#7 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 23:32:39 --> Undefined property: stdClass::$namauser
+#0 C:\xampp\htdocs\anijaya\app\Views\master\V_user.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\anijaya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('master/V_user', Array, true)
+#4 C:\xampp\htdocs\anijaya\app\Controllers\C_user.php(16): view('master/V_user', Array)
+#5 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_user->index()
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_user))
+#7 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 23:35:41 --> Undefined property: stdClass::$iduser
+#0 C:\xampp\htdocs\anijaya\app\Views\master\V_user.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\anijaya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('master/V_user', Array, true)
+#4 C:\xampp\htdocs\anijaya\app\Controllers\C_user.php(16): view('master/V_user', Array)
+#5 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_user->index()
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_user))
+#7 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 23:36:51 --> Undefined property: stdClass::$iduser
+#0 C:\xampp\htdocs\anijaya\app\Views\master\V_user.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\anijaya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('master/V_user', Array, true)
+#4 C:\xampp\htdocs\anijaya\app\Controllers\C_user.php(16): view('master/V_user', Array)
+#5 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_user->index()
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_user))
+#7 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 23:37:03 --> Undefined property: stdClass::$iduser
+#0 C:\xampp\htdocs\anijaya\app\Views\master\V_user.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\anijaya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('master/V_user', Array, true)
+#4 C:\xampp\htdocs\anijaya\app\Controllers\C_user.php(16): view('master/V_user', Array)
+#5 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_user->index()
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_user))
+#7 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

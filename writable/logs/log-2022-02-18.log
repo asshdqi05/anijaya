@@ -1,0 +1,183 @@
+ERROR - 2022-02-18 04:00:05 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-18 04:00:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\anijaya\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\anijaya\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *, `bara...', Array, false)
+#2 C:\xampp\htdocs\anijaya\app\Controllers\C_barang.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_barang->index()
+#4 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_barang))
+#5 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-02-18 04:00:49 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-18 04:00:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\anijaya\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\anijaya\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\anijaya\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\anijaya\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\anijaya\app\Controllers\C_login.php(21): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_login->login()
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+#7 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-18 07:03:02 --> Undefined variable: penjualan
+#0 C:\laragon\www\anijaya\app\Views\penjualan\V_nota_jual.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 48, Array)
+#1 C:\laragon\www\anijaya\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('penjualan/V_not...', Array, true)
+#4 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(82): view('penjualan/V_not...')
+#5 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(71): App\Controllers\C_penjualan->cetak_nota(4)
+#6 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->save()
+#7 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#8 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-18 07:04:23 --> Undefined variable: penjualan
+#0 C:\laragon\www\anijaya\app\Views\penjualan\V_nota_jual.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 48, Array)
+#1 C:\laragon\www\anijaya\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('penjualan/V_not...', Array, true)
+#4 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(82): view('penjualan/V_not...')
+#5 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(71): App\Controllers\C_penjualan->cetak_nota(5)
+#6 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->save()
+#7 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#8 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-18 07:08:07 --> Undefined property: stdClass::$harga
+#0 C:\laragon\www\anijaya\app\Views\penjualan\V_nota_jual.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 73, Array)
+#1 C:\laragon\www\anijaya\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('penjualan/V_not...', Array, true)
+#4 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(82): view('penjualan/V_not...', Array)
+#5 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(71): App\Controllers\C_penjualan->cetak_nota(7)
+#6 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->save()
+#7 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#8 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-18 07:08:51 --> Undefined property: stdClass::$harga
+#0 C:\laragon\www\anijaya\app\Views\penjualan\V_nota_jual.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 81, Array)
+#1 C:\laragon\www\anijaya\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('penjualan/V_not...', Array, true)
+#4 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(82): view('penjualan/V_not...', Array)
+#5 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(71): App\Controllers\C_penjualan->cetak_nota(9)
+#6 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->save()
+#7 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#8 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-18 07:26:42 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 82, Array)
+#1 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(71): App\Controllers\C_penjualan->cetak_nota(13)
+#2 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->save()
+#3 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#4 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-18 07:27:32 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 82, Array)
+#1 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->cetak_nota('FJ-1802220010')
+#2 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#3 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 07:27:32 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 82, Array)
+#1 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(71): App\Controllers\C_penjualan->cetak_nota(14)
+#2 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->save()
+#3 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#4 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-18 07:27:52 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 82, Array)
+#1 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->cetak_nota('FJ-1802220011')
+#2 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#3 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 07:27:52 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 82, Array)
+#1 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(71): App\Controllers\C_penjualan->cetak_nota(15)
+#2 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->save()
+#3 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#4 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-18 07:38:31 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 82, Array)
+#1 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(71): App\Controllers\C_penjualan->cetak_nota(16)
+#2 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->save()
+#3 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#4 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-18 07:38:31 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 82, Array)
+#1 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(71): App\Controllers\C_penjualan->cetak_nota(17)
+#2 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->save()
+#3 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#4 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-18 20:43:44 --> Undefined variable: barang
+#0 C:\laragon\www\anijaya\app\Views\penjualan\V_tambah_penjualan.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 182, Array)
+#1 C:\laragon\www\anijaya\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('penjualan/V_tam...', Array, true)
+#4 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(74): view('penjualan/V_tam...', Array)
+#5 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->save()
+#6 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#7 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-18 20:43:44 --> Undefined variable: barang
+#0 C:\laragon\www\anijaya\app\Views\penjualan\V_tambah_penjualan.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 182, Array)
+#1 C:\laragon\www\anijaya\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('penjualan/V_tam...', Array, true)
+#4 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(74): view('penjualan/V_tam...', Array)
+#5 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->save()
+#6 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#7 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-18 07:46:22 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\laragon\\www\\...', 80, Array)
+#1 C:\laragon\www\anijaya\system\Debug\Toolbar\Collectors\History.php(80): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\anijaya\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1645191982, 20)
+#3 C:\laragon\www\anijaya\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\laragon\www\anijaya\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\laragon\www\anijaya\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\laragon\www\anijaya\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-18 07:55:07 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 81, Array)
+#1 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->cetak_nota('FJ-1802220020')
+#2 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#3 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 07:55:43 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 81, Array)
+#1 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->cetak_nota('FJ-1802220021')
+#2 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#3 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 07:57:22 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 81, Array)
+#1 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->cetak_nota('FJ-1802220022')
+#2 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#3 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

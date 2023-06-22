@@ -1,0 +1,61 @@
+CRITICAL - 2022-02-17 04:09:55 --> Undefined variable: level
+#0 C:\xampp\htdocs\anijaya\app\Views\template\V_menu.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\anijaya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\anijaya\system\View\View.php(424): CodeIgniter\View\View->render('template/V_menu', NULL, true)
+#4 C:\xampp\htdocs\anijaya\app\Views\template\V_header.php(46): CodeIgniter\View\View->include('template/V_menu')
+#5 C:\xampp\htdocs\anijaya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\anijaya\system\View\View.php(226): CodeIgniter\View\View->render('template/V_head...', Array, true)
+#8 C:\xampp\htdocs\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('master/V_barang', Array, true)
+#9 C:\xampp\htdocs\anijaya\app\Controllers\C_barang.php(16): view('master/V_barang', Array)
+#10 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_barang->index()
+#11 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_barang))
+#12 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-02-17 04:10:56 --> Unknown column 'penjualan.id_pelanggan' in 'on clause'
+CRITICAL - 2022-02-17 04:10:56 --> Unknown column 'penjualan.id_pelanggan' in 'on clause'
+#0 C:\xampp\htdocs\anijaya\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `penj...', 0)
+#1 C:\xampp\htdocs\anijaya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `penj...')
+#2 C:\xampp\htdocs\anijaya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `penj...')
+#3 C:\xampp\htdocs\anijaya\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *, `penj...', Array, false)
+#4 C:\xampp\htdocs\anijaya\app\Controllers\C_penjualan.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->index()
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#7 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-17 05:35:32 --> Undefined property: stdClass::$nama_satuan
+#0 C:\xampp\htdocs\anijaya\app\Views\penjualan\V_tambah_penjualan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\anijaya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('penjualan/V_tam...', Array, true)
+#4 C:\xampp\htdocs\anijaya\app\Controllers\C_penjualan.php(20): view('penjualan/V_tam...', Array)
+#5 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->add()
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#7 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-17 06:15:05 --> Undefined variable: id_penyewa
+#0 C:\xampp\htdocs\anijaya\app\Views\penjualan\V_temp_jual.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\anijaya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('penjualan/V_tem...', Array, true)
+#4 C:\xampp\htdocs\anijaya\app\Controllers\C_penjualan.php(33): view('penjualan/V_tem...')
+#5 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->save_temp()
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#7 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-17 06:15:14 --> Undefined variable: id_penyewa
+#0 C:\xampp\htdocs\anijaya\app\Views\penjualan\V_temp_jual.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\anijaya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('penjualan/V_tem...', Array, true)
+#4 C:\xampp\htdocs\anijaya\app\Controllers\C_penjualan.php(33): view('penjualan/V_tem...')
+#5 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->save_temp()
+#6 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#7 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

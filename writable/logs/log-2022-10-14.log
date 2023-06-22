@@ -1,0 +1,22 @@
+CRITICAL - 2022-10-14 11:05:23 --> Undefined variable: barang
+#0 C:\laragon\www\anijaya\app\Views\pemesanan\V_list_barang.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\anijaya\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('pemesanan/V_lis...', Array, true)
+#4 C:\laragon\www\anijaya\app\Controllers\C_pemesanan.php(134): view('pemesanan/V_lis...', Array)
+#5 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_pemesanan->list_barang()
+#6 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_pemesanan))
+#7 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-14 11:05:34 --> Undefined variable: barang
+#0 C:\laragon\www\anijaya\app\Views\pemesanan\V_list_barang.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\anijaya\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('pemesanan/V_lis...', Array, true)
+#4 C:\laragon\www\anijaya\app\Controllers\C_pemesanan.php(134): view('pemesanan/V_lis...', Array)
+#5 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_pemesanan->list_barang()
+#6 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_pemesanan))
+#7 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

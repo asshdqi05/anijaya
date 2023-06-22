@@ -1,0 +1,16 @@
+CRITICAL - 2022-02-19 12:38:52 --> Undefined variable: level
+#0 C:\laragon\www\anijaya\app\Views\template\V_menu.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 25, Array)
+#1 C:\laragon\www\anijaya\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\anijaya\system\View\View.php(424): CodeIgniter\View\View->render('template/V_menu', NULL, true)
+#4 C:\laragon\www\anijaya\app\Views\template\V_header.php(46): CodeIgniter\View\View->include('template/V_menu')
+#5 C:\laragon\www\anijaya\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\anijaya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\laragon\www\anijaya\system\View\View.php(226): CodeIgniter\View\View->render('template/V_head...', Array, true)
+#8 C:\laragon\www\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('penjualan/V_tam...', Array, true)
+#9 C:\laragon\www\anijaya\app\Controllers\C_penjualan.php(24): view('penjualan/V_tam...', Array)
+#10 C:\laragon\www\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->add()
+#11 C:\laragon\www\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#12 C:\laragon\www\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}

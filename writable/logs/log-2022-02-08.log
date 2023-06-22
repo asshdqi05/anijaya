@@ -1,0 +1,9 @@
+CRITICAL - 2022-02-08 05:07:08 --> Invalid file: penjualan/V_list_penjualan.php
+#0 C:\xampp\htdocs\anijaya\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penjualan/V_lis...')
+#1 C:\xampp\htdocs\anijaya\system\Common.php(1089): CodeIgniter\View\View->render('penjualan/V_lis...', Array, true)
+#2 C:\xampp\htdocs\anijaya\app\Controllers\C_penjualan.php(13): view('penjualan/V_lis...', Array)
+#3 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(825): App\Controllers\C_penjualan->index()
+#4 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_penjualan))
+#5 C:\xampp\htdocs\anijaya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anijaya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
